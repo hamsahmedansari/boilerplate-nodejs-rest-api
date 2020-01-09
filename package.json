@@ -4,7 +4,11 @@
   "description": "an simple boilerplate for nodejs without mongodb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2"
   },
   "repository": {
     "type": "git",
@@ -18,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/hamsahmedansari/boilerplate-nodejs-rest-api/issues"
   },
-  "homepage": "https://github.com/hamsahmedansari/boilerplate-nodejs-rest-api#readme"
+  "homepage": "https://github.com/hamsahmedansari/boilerplate-nodejs-rest-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2"
+  }
 }
