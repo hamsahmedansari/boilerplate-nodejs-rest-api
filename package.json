@@ -1,0 +1,22 @@
+{
+  "name": "boilerplate-nodejs-rest-api",
+  "version": "1.0.0",
+  "description": "an simple boilerplate for nodejs without mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamsahmedansari/boilerplate-nodejs-rest-api.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Hams Ahmed Ansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamsahmedansari/boilerplate-nodejs-rest-api/issues"
+  },
+  "homepage": "https://github.com/hamsahmedansari/boilerplate-nodejs-rest-api#readme"
+}
