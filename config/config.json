@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "towing_app",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "VXdFDlju9jh28R0ud8Gw",
+    "database": "innodb",
+    "host": "database-1.cgjm6ol9mdyo.us-east-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}
